@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let day = Number(prompt("Enter a day (1-7): "));
+
+        switch (day) {
+            case 1:
+                console.log("Monday");
+                break;
+
+            case 2:
+                console.log("Tuesday");
+                break;
+
+            case 3:
+                console.log("Wednesday");
+                break;
+
+            case 4:
+                console.log("Thursday");
+                break;
+
+            case 5:
+                console.log("Friday");
+                break;
+
+            case 6:
+            case 7:
+                console.log("Weekend");
+                break;
+
+            default:
+                console.log("Invalid day");
+                break;
+        }
+
+        let grade = String(prompt("Enter your grade: ")).toUpperCase();
+
+        switch (grade) {
+            case "A":
+                console.log("Excellent!");
+                break;
+            case "B":
+                console.log("Good job!");
+                break;
+            case "C":
+                console.log("You passed!");
+                break;
+            default:
+                console.log("Keep trying!");
+                break;
+        }
+
+        let myArray = [4, 5, 6, 10, 12];
+        let total = 0;
+
+        for (let i = 0; i < myArray.length; i++) {
+            total += myArray[i];
+        }
+
+        console.log(total);
+
+        let number = 0;
+        total = 0;
+
+        while (number < 8) {
+            number = Math.floor(Math.random() * 10 + 1);
+            console.log(number);
+            total += number;
+        }
+
+        console.log("The sum of number < 8 is " + total);
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

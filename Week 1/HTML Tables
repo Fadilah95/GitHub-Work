@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Comparison of Models</title>
+</head>
+
+<body>
+
+<h2 align="center">Comparison of models</h2>
+
+<table border="1" width="95%" align="center" cellspacing="0" cellpadding="8">
+
+    <tr>
+        <th>Model</th>
+        <th>OS</th>
+        <th>Display</th>
+        <th>RAM</th>
+    </tr>
+
+    <tr>
+        <td align="center">Samsung Galaxy<br>S7</td>
+        <td align="center" rowspan="2">Android</td>
+        <td align="center">5.1"</td>
+        <td align="center">4 GB</td>
+    </tr>
+
+    <tr>
+        <td align="center">Sony Xperia Z5</td>
+        <td align="center">4.6"</td>
+        <td align="center" rowspan="2">2 GB</td>
+    </tr>
+
+    <tr>
+        <td align="center">Apple iPhone 6s</td>
+        <td align="center">iOS</td>
+        <td align="center">4.7"</td>
+    </tr>
+
+</table>
+
+</body>
+</html>
